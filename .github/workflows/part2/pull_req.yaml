@@ -1,0 +1,15 @@
+name: pull-request-workflow
+on: 
+  pull_request:
+    types: [opened]
+
+jobs:
+  push-request-job: # job name
+    runs-on: ubuntu-latest # runner 어디서 실행
+    steps:
+    - name: step1
+      run: echo hello world
+    - name: step2 
+      run: | # multi line
+        echo github action 3
+        echo github action 4 
