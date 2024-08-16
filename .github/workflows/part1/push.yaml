@@ -1,4 +1,4 @@
-name: push-workflow # 생략해도 상관 없음
+name: push-workflow1 # 생략해도 상관 없음
 on: push # push 이벤트로 workflow를 트리거 
 
 jobs:
